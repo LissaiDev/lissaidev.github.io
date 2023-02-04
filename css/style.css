@@ -1,0 +1,105 @@
+/*Configuracoes gerais*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+	/*Fontes*/
+
+
+	body,html{
+		font-family: 'Lato', sans-serif;
+		height: 100%;
+	}
+
+
+	/*Links*/
+
+
+	a{
+		text-decoration: none;
+	}
+
+
+	a.nav-link{
+		color: #607026;
+		font-weight: 700;
+		
+	}
+
+
+	.fale-comigo{
+		color: #6E07F3;
+		border: 2px solid #6E07F3;
+		transition:all 0.3s;
+	}
+
+
+	.fale-comigo:hover{
+		color: white;
+		background: #6E07F3;
+	}
+
+
+	/*Tipografia*/
+/*Configuracoes no cabecalho*/
+	/*Logo*/
+
+
+	#devLogo{
+		width: 5em;
+	}
+
+
+	/*Configuracoes na barra de navegacao*/
+
+
+	.white{
+		background-color: white;
+	}
+
+
+	header,#presentation , #tools, #contactos{
+		background: #b4ca65;
+		transition: all 0.3s ease-in-out;
+	}
+
+
+	.notWhite{
+		background: #b4ca65;
+	}
+
+
+	/*Configuracoes em botoes*/
+	/*Configuracoes na barra de pesquisa*/
+/*Configuracoes no corpo*/
+
+.absoluto-hover{
+	background-color: none;
+	opacity: 0;
+	transition: all 0.4s;
+	transform: translateX(-50px);
+}
+
+
+.absoluto-hover:hover{
+	background-color: #141c3a;
+	opacity: 1;
+	transition: all 0.5s;
+	transform: translateX(0);
+}
+
+#presentation-dev, .description-field{
+	color: #bf225a;
+}
+
+.btn-repositorio{
+	cursor: pointer;
+}
+
+h2,li{
+	color: #607026;
+	text-align: center;
+}
+
+/*Configuracoes no rodape*/
