@@ -73,7 +73,9 @@
 	/*Configuracoes em botoes*/
 	/*Configuracoes na barra de pesquisa*/
 /*Configuracoes no corpo*/
-
+#show{
+	opacity: 0;
+}
 .absoluto-hover{
 	background-color: none;
 	opacity: 0;

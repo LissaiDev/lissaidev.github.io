@@ -3,6 +3,15 @@ $('.btn-repositorio').on("click",function(){
     window.open('https://www.github.com/LissaiDev', 'LissaiDev - Repository')
 })
 
+//Show
+$(document).ready(()=>{
+    setTimeout(()=>{
+        $('#show').animate({
+            'opacity' : 1
+        },'slow')
+    },500)
+})
+
 //Links
 $('#quem-sou-eu').hover(
     ()=>{
