@@ -65,3 +65,29 @@ $(document).scroll(()=>{
 $('.whatsapp').click(function(){
     window.location.href='https://wa.me/qr/SG5NKGININPXA1'
 })
+
+
+//Appear
+
+let $target = $('.hide')
+    animationClass = 'appear'
+    offset = $(window).height() * 3/4;
+
+function hideScroll(){
+    let documentTop = $(document).scrollTop();
+    $target.each(function(){
+        let itemTop = $(this).offset().top;
+        console.log(itemTop)
+        if(documentTop > itemTop - offset){
+            $(this).addClass(animationClass)
+            console.log('add class')
+        }else{
+            $(this).removeClass(animationClass)
+        }
+    })
+}
+
+$(document).scroll(()=>{
+    
+hideScroll()
+})

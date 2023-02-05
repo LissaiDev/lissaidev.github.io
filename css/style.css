@@ -105,3 +105,12 @@ h2,li{
 }
 
 /*Configuracoes no rodape*/
+
+.hide{
+	transform: translateX(-700px);
+	transition: all 1.5s;
+}
+
+.appear{
+	transform: translateX(0);
+}
