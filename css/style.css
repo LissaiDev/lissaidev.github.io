@@ -109,8 +109,10 @@ h2,li{
 .hide{
 	transform: translateX(-700px);
 	transition: all 1.5s;
+	opacity: 0;
 }
 
 .appear{
 	transform: translateX(0);
+	opacity: 1;
 }
